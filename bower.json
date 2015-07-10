@@ -1,0 +1,32 @@
+
+{
+  "name": "r34k7-container",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kinncj/r34k7-container",
+  "authors": [
+    "KinnCJ <kinncj@gmail.com> (http://about.me/kinncj)"
+  ],
+  "description": "Just a simple container component built with React",
+  "main": "dist/r34k7-container.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "react-tabs",
+    "tabs",
+    "tab"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "example",
+    "utils",
+    "lib"
+  ]
+}

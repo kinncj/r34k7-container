@@ -1,0 +1,53 @@
+{
+  "name": "r34k7-container",
+  "version": "0.1.0",
+  "description": "Just a simple container component built with React",
+  "author": {
+    "name": "KinnCJ",
+    "email": "kinncj@gmail.com",
+    "url": "http://about.me/kinncj"
+  },
+  "bugs": {
+    "url": "https://github.com/kinncj/r34k7-container/issues"
+  },
+  "homepage": "https://github.com/kincj/r34k7-container",
+  "license": "MIT",
+  "main": "dist/r34k7-container.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kinncj/r34k7-container"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-container",
+    "react-modal",
+    "modal",
+    "container"
+  ],
+  "scripts": {
+    "bundle": "gulp webpack && gulp webpack --production",
+    "start": "gulp"
+  },
+  "peerDependencies": {
+    "react": "0.13.x - 1.x"
+  },
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "babel-core": "^5.6.17",
+    "babel-loader": "^5.3.1",
+    "babel-runtime": "^5.6.17",
+    "browser-sync": "^1.5.2",
+    "extract-text-webpack-plugin": "^0.3.1",
+    "gulp": "^3.8.6",
+    "gulp-babel": "5.1.0",
+    "gulp-util": "^3.0.1",
+    "jsx-loader": "^0.12.2",
+    "lodash": "^2.4.1",
+    "react": "0.12.x - 1.x",
+    "react-tools": "^0.12.2",
+    "style-loader": "^0.8.1",
+    "systemjs-builder": "0.9.1",
+    "webpack": "^1.4.4"
+  }
+}
