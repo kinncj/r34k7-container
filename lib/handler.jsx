@@ -1,12 +1,12 @@
 'use strict';
 
-import { Component, cloneElement } from 'react/addons';
-import Dispatcher                  from 'r34k7/dispatcher';
-import Event                       from 'r34k7/event';
+import React      from 'react/addons';
+import Event      from './event';
+import Dispatcher from './dispatcher';
 
-class Handler extends Component
+class Handler extends React.Component
 {
-    onClick() {
+    handle() {
         var eventName = Event.mask
                 .replace('%TARGET%', this.props.target)
                 .replace('%ACTION%', this.props.action),
@@ -16,8 +16,8 @@ class Handler extends Component
     }
 
     render() {
-        return cloneElement(this.props.children, { onClick: this.onClick.bind(this) });
+        return React.cloneElement(this.props.children, { 'onClick': this.handle });
     }
 }
 
-module.exports = Handler;
+export default Handler;

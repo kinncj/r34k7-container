@@ -49,5 +49,8 @@
     "style-loader": "^0.8.1",
     "systemjs-builder": "0.9.1",
     "webpack": "^1.4.4"
+  },
+  "dependencies": {
+    "react-hot-loader": "^1.2.8"
   }
 }

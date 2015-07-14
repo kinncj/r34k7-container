@@ -6,7 +6,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var banner = _.template([
   '',
-  ' r34k7 Container - <%= pkg.description %>',
+  ' r34k7 Container Example - <%= pkg.description %>',
   ' @version v<%= pkg.version %>',
   ' @link <%= pkg.homepage %>',
   ' @license <%= pkg.license %>',
@@ -18,7 +18,8 @@ var banner = _.template([
 
 module.exports = {
   entry: {
-      'r34k7':  './lib/app.js'
+      'r34k7':  './lib/app.js',
+      'r34k7example':  './example/example.js'
   },
   output: {
     path: __dirname + '/dist',

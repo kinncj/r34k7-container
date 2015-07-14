@@ -1,10 +1,10 @@
 'use strict';
 
-import { Component } from 'react/addons';
-import Dispatcher    from 'r34k7/dispatcher';
-import Event         from 'r34k7/event';
+import React      from 'react/addons';
+import Event      from './event';
+import Dispatcher from './dispatcher';
 
-class Container extends Component
+class Container extends React.Component
 {
     constructor(props) {
         super(props);
@@ -51,15 +51,14 @@ class Container extends Component
     }
 
     render() {
-        var style   = {},
-            element = cloneElement(this.props.children, { onClick: this.onClick.bind(this) });
+        var style   = {};
 
         if (!this.state.visible) {
-            style.display = none;
+            style.display = 'none';
         }
 
-        return <div style={style}>{element}</div>;
+        return <div style={style}>{this.props.children}</div>;
     }
 }
 
-module.exports = Container;
+export default Container;
