@@ -1,7 +1,7 @@
 {
     "name": "r34k7-container",
-    "version": "1.0.0",
-    "description": "Just a simple container component built with React",
+    "version": "1.0.1",
+    "description": "A simple container component for React",
     "author": {
         "name": "KinnCJ",
         "email": "kinncj@gmail.com",
