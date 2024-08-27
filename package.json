@@ -39,7 +39,7 @@
         "classnames": "2.1.5",
         "extract-text-webpack-plugin": "0.8.2",
         "react": "0.13.3",
-        "webpack": "1.12.2"
+        "webpack": "5.94.0"
     },
     "devDependencies": {
         "http-server": "0.8.5"
